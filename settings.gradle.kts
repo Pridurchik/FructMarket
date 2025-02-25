@@ -21,6 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "FructMarket"
 include(":app")
-include(":features-ui")
 include(":data")
-include(":base")
+include(":core")
+include(":features")
