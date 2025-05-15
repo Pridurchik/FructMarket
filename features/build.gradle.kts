@@ -49,6 +49,11 @@ dependencies {
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.ui.android)
     debugImplementation(libs.androidx.compose.ui.ui.tooling)
+
+    implementation(libs.androidx.runtime.livedata)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
     implementation(project(":core"))
+    implementation(project(":features-vm"))
 
 }

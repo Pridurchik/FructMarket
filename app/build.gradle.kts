@@ -53,6 +53,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.room.ktx)
     implementation(project(":core"))
+    implementation(libs.androidx.navigation.runtime.ktx)
 
     testImplementation(libs.junit)
 
@@ -69,4 +70,6 @@ dependencies {
 
     implementation(project(":data"))
     implementation(project(":features"))
+    implementation(project(":core"))
+    implementation(libs.androidx.navigation.compose)
 }
